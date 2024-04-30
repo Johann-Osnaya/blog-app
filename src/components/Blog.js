@@ -109,7 +109,7 @@ const Blog = ({ blog }) => {
 		return (
 			<div>
 				<h2>{blog.title}</h2>
-				<a className='link-dark' target='_blank' rel='noopener noreferer' href={blog.url}>{blog.url}</a>
+				<a className='link-dark' target='_blank' rel='noopener noreferrer' href={blog.url}>{blog.url}</a>
 				<br/>
 				<br/>
 				{blog.likes} likes <Button size='sm' variant='dark' onClick={() => voteBlog(blog.id)}>Like</Button><br/>
