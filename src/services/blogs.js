@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = '/api/blogs'
+const baseUrl = 'https://blog-app-backend-alpha.vercel.app/api/blogs'
 
 let token = null
 
