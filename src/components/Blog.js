@@ -33,9 +33,7 @@ const Blog = ({ blog }) => {
 
 
 	const removeblog = () =>  {
-		const confirm = window.confirm(`are you sure you wanto to delete ${blog.title}?`)
-		if(confirm)
-			deleteBlog()
+		window.confirm(`are you sure you wanto to delete ${blog.title}?`) ? deleteBlog() : ''
 	}
 
 	const deleteBlog = async () => {
